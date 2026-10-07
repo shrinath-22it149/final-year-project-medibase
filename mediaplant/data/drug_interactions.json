@@ -1,0 +1,148 @@
+{
+  "interactions": [
+    {
+      "herb": "Tulsi",
+      "drug": "Warfarin / Aspirin / Clopidogrel",
+      "category": "Blood Thinners / Anticoagulants",
+      "severity": "Moderate",
+      "severity_color": "#fd7e14",
+      "mechanism": "Tulsi contains eugenol, which exhibits natural anti-platelet and mild antithrombotic properties. Combining with pharmaceutical blood thinners may increase bleeding time or bruising.",
+      "recommendation": "Monitor INR / clotting time closely. Avoid high therapeutic doses of Tulsi extracts 2 weeks prior to surgical procedures."
+    },
+    {
+      "herb": "Tulsi",
+      "drug": "Metformin / Glimepiride / Insulin",
+      "category": "Antidiabetic Medications",
+      "severity": "Moderate",
+      "severity_color": "#fd7e14",
+      "mechanism": "Tulsi stimulates pancreatic beta-cell insulin secretion. Taking it alongside prescription hypoglycemics may lead to synergistic blood sugar drops.",
+      "recommendation": "Monitor capillary blood glucose frequently. Adjust prescription medication under physician supervision if hypoglycemia symptoms occur."
+    },
+    {
+      "herb": "Neem",
+      "drug": "Metformin / Glipizide",
+      "category": "Antidiabetic Medications",
+      "severity": "High",
+      "severity_color": "#dc3545",
+      "mechanism": "Neem extracts exhibit potent insulin-mimetic and glucose-lowering activity. Simultaneous intake with antidiabetics can cause severe hypoglycemia.",
+      "recommendation": "Strict blood glucose monitoring required. Dose reduction of pharmaceuticals may be needed under medical supervision."
+    },
+    {
+      "herb": "Neem",
+      "drug": "Cyclosporine / Tacrolimus",
+      "category": "Immunosuppressive Drugs",
+      "severity": "High",
+      "severity_color": "#dc3545",
+      "mechanism": "Neem possesses robust immunostimulatory properties that stimulate T-cell activity, potentially counteracting the therapeutic goal of organ-transplant immunosuppressants.",
+      "recommendation": "Strictly contraindicated for post-transplant patients taking immunosuppressants."
+    },
+    {
+      "herb": "Aloe Vera (Oral Latex)",
+      "drug": "Digoxin",
+      "category": "Cardiac Glycosides",
+      "severity": "Critical",
+      "severity_color": "#721c24",
+      "mechanism": "Aloin in Aloe latex acts as a strong laxative that depletes serum potassium (hypokalemia). Hypokalemia dramatically magnifies digoxin cardiac toxicity, risking severe arrhythmias.",
+      "recommendation": "Avoid internal aloe latex when on digoxin. Pure de-aloinized inner gel is acceptable in moderation."
+    },
+    {
+      "herb": "Ginger",
+      "drug": "Warfarin / Heparin / NSAIDs",
+      "category": "Anticoagulants & Antiplatelets",
+      "severity": "Moderate",
+      "severity_color": "#fd7e14",
+      "mechanism": "Gingerols inhibit thromboxane synthetase and platelet aggregation, compounding the anticoagulant activity of prescription blood thinners.",
+      "recommendation": "Dietary culinary quantities are safe. High supplemental doses (>4g dry extract) should be avoided without physician approval."
+    },
+    {
+      "herb": "Turmeric / Curcumin",
+      "drug": "Aspirin / Warfarin",
+      "category": "Blood Thinners",
+      "severity": "Moderate",
+      "severity_color": "#fd7e14",
+      "mechanism": "Curcumin demonstrates anti-platelet and fibrinolytic properties that can enhance bleeding risk when paired with prescription anti-thrombotics.",
+      "recommendation": "Culinary amounts in food are safe. High-dose liposomal curcumin supplements should be discontinued before elective surgeries."
+    },
+    {
+      "herb": "Turmeric / Curcumin",
+      "drug": "Omeprazole / Pantoprazole / Ranitidine",
+      "category": "Antacids & Proton Pump Inhibitors (PPIs)",
+      "severity": "Low",
+      "severity_color": "#ffc107",
+      "mechanism": "Turmeric stimulates gastric acid production (cholagogue/stomachic effect), which may partially counteract the acid-suppressing action of PPIs.",
+      "recommendation": "Take turmeric at least 2 hours apart from acid-suppressing pharmaceuticals."
+    },
+    {
+      "herb": "Ashwagandha",
+      "drug": "Zolpidem / Alprazolam / Diazepam",
+      "category": "Sedatives & Benzodiazepines",
+      "severity": "High",
+      "severity_color": "#dc3545",
+      "mechanism": "Ashwagandha withanolides modulate GABA-A receptors, leading to additive central nervous system depression, extreme drowsiness, and slowed motor reflexes.",
+      "recommendation": "Do not combine with sedative hypnotics or alcohol. Exercise caution when driving."
+    },
+    {
+      "herb": "Ashwagandha",
+      "drug": "Levothyroxine / Synthroid",
+      "category": "Thyroid Hormone Replacements",
+      "severity": "Moderate",
+      "severity_color": "#fd7e14",
+      "mechanism": "Ashwagandha stimulates endogenous T3 and T4 synthesis. In patients taking exogenous thyroid hormone, this can result in thyrotoxicosis symptoms.",
+      "recommendation": "Monitor thyroid panel (TSH, free T3/T4) every 6-8 weeks if using Ashwagandha."
+    },
+    {
+      "herb": "Licorice (Mulethi)",
+      "drug": "Amlodipine / Losartan / Telmisartan",
+      "category": "Antihypertensive Medications",
+      "severity": "Critical",
+      "severity_color": "#721c24",
+      "mechanism": "Glycyrrhizin inhibits 11-beta-HSD2, preventing cortisol breakdown and causing pseudoaldosteronism (sodium/water retention and potassium excretion), elevating BP.",
+      "recommendation": "Strictly avoid regular licorice root consumption if diagnosed with hypertension or taking BP medications."
+    },
+    {
+      "herb": "Licorice (Mulethi)",
+      "drug": "Furosemide / Hydrochlorothiazide",
+      "category": "Diuretics",
+      "severity": "Critical",
+      "severity_color": "#721c24",
+      "mechanism": "Both licorice and loop/thiazide diuretics induce renal potassium wasting. Combined intake can cause dangerous severe hypokalemia, muscle paralysis, and arrhythmias.",
+      "recommendation": "Strictly contraindicated. Use DGL (Deglycyrrhizinated Licorice) instead for ulcer healing."
+    },
+    {
+      "herb": "Senna",
+      "drug": "Furosemide (Lasix)",
+      "category": "Loop Diuretics",
+      "severity": "High",
+      "severity_color": "#dc3545",
+      "mechanism": "Additive potassium excretion via both intestinal purging and renal diuresis, predisposing to hypokalemia.",
+      "recommendation": "Do not use stimulant laxatives concurrently with potassium-wasting diuretics."
+    },
+    {
+      "herb": "Guggul",
+      "drug": "Atorvastatin / Rosuvastatin",
+      "category": "HMG-CoA Reductase Inhibitors (Statins)",
+      "severity": "Moderate",
+      "severity_color": "#fd7e14",
+      "mechanism": "Guggul induces CYP3A4 enzymes and hepatic bile acid receptors, potentially modifying circulating statin bioavailability.",
+      "recommendation": "Monitor lipid profile and liver enzymes. Separate administration times by 3-4 hours."
+    },
+    {
+      "herb": "Kalmegh (Nilavembu)",
+      "drug": "Paracetamol / Acetaminophen",
+      "category": "Antipyretics / Analgesics",
+      "severity": "Low (Beneficial)",
+      "severity_color": "#28a745",
+      "mechanism": "Andrographolide demonstrates hepatoprotective properties that may mitigate paracetamol-induced oxidative liver stress during acute viral fever therapy.",
+      "recommendation": "Generally safe. Maintain standard clinical dosages of both."
+    },
+    {
+      "herb": "Castor Oil",
+      "drug": "Oral Contraceptives / Antibiotics",
+      "category": "Oral Medications",
+      "severity": "Moderate",
+      "severity_color": "#fd7e14",
+      "mechanism": "Castor oil triggers intense peristaltic purging, drastically shortening intestinal transit time and causing incomplete absorption of co-administered oral tablets.",
+      "recommendation": "Take prescription medications at least 4 hours before or after taking castor oil."
+    }
+  ]
+}

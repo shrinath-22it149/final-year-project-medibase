@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+mediaplant/venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+mediaplant/**/__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temporary extraction folders
+extracted/
+extracted_clean/
+
+# SQLite Database (auto-created at runtime)
+mediaplant/database/mediaplant.db

@@ -1,0 +1,31 @@
+{
+  "plants": [
+    "Tulsi",
+    "Neem",
+    "Aloe_Vera",
+    "Ginger",
+    "Turmeric",
+    "Ashwagandha",
+    "Brahmi",
+    "Amla",
+    "Giloy",
+    "Moringa"
+  ],
+  "num_classes": 10,
+  "diseases": [
+    "healthy",
+    "yellow_spots",
+    "brown_edges",
+    "dark_patches",
+    "white_powder",
+    "rust_spots",
+    "wilting",
+    "mosaic"
+  ],
+  "num_diseases": 8,
+  "train_per_class": 10,
+  "test_per_class": 5,
+  "image_size": 224,
+  "total_images": 310,
+  "note": "Run create_dataset.py for full 50-image dataset"
+}

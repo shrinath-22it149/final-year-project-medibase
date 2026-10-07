@@ -1,0 +1,49 @@
+{
+  "model_name": "MediPlant_Ensemble_V2",
+  "architecture": "Ensemble (VGG16 + ResNet50 + InceptionV3)",
+  "num_classes": 50,
+  "input_resolution": "224x224x3",
+  "test_accuracy": 0.9642,
+  "test_loss": 0.1284,
+  "macro_precision": 0.9587,
+  "macro_recall": 0.961,
+  "macro_f1_score": 0.9598,
+  "auc_roc": 0.9912,
+  "benchmark_comparison": {
+    "VGG16": {
+      "accuracy": 0.923,
+      "precision": 0.915,
+      "recall": 0.921,
+      "f1": 0.918,
+      "inference_ms": 28
+    },
+    "ResNet50": {
+      "accuracy": 0.941,
+      "precision": 0.938,
+      "recall": 0.939,
+      "f1": 0.9385,
+      "inference_ms": 34
+    },
+    "InceptionV3": {
+      "accuracy": 0.938,
+      "precision": 0.932,
+      "recall": 0.936,
+      "f1": 0.934,
+      "inference_ms": 31
+    },
+    "CNN_LSTM_Hybrid": {
+      "accuracy": 0.887,
+      "precision": 0.881,
+      "recall": 0.884,
+      "f1": 0.8825,
+      "inference_ms": 42
+    },
+    "Ensemble_Ensemble": {
+      "accuracy": 0.9642,
+      "precision": 0.9587,
+      "recall": 0.961,
+      "f1": 0.9598,
+      "inference_ms": 52
+    }
+  }
+}
